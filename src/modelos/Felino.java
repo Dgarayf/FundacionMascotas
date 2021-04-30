@@ -1,6 +1,8 @@
 
 package modelos;
 
+import java.util.ArrayList;
+
 
 public class Felino extends Mascota{
     
@@ -19,6 +21,6 @@ public class Felino extends Mascota{
         this.portadorToxoplasmosis = portadorToxoplasmosis;
     }
     
-    public static ArrayList<Felino> 
+  
     
 }
