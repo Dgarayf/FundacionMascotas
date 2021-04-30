@@ -86,6 +86,11 @@ public class RegistroVista extends javax.swing.JFrame {
         btnPromedio.setBackground(new java.awt.Color(204, 204, 204));
         btnPromedio.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         btnPromedio.setText("Promedio edades");
+        btnPromedio.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnPromedioActionPerformed(evt);
+            }
+        });
 
         btnInicio.setBackground(new java.awt.Color(204, 204, 204));
         btnInicio.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
@@ -144,6 +149,10 @@ public class RegistroVista extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnPromedioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPromedioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnPromedioActionPerformed
 
     /**
      * @param args the command line arguments
